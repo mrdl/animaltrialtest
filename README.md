@@ -49,10 +49,14 @@ Thanks to model using interfaces, we dont have overhead here
 
 1. Can you model a butterfly?
 a. A butterfly can fly
-b. A butterfly does not make a sound2. Can you optimize your model to account for the metamorphosis from caterpillar to
+b. A butterfly does not make a sound
+2. Can you optimize your model to account for the metamorphosis from caterpillar to
 butterfly?
 a. A caterpillar cannot fly
 b. A caterpillar can walk (crawl)
+
+This is standard State Design Pattern
+
 E. Counting animals
 Suppose you have an array of animals, e.g.
 Animal[] animals = new Animal[]{
