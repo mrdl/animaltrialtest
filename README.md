@@ -45,6 +45,8 @@ d. Sharks eat other fish
 a. Can you model a dolphin that swims without inheriting from a fish class?
 b. How do you avoid duplicating code or introducing unneeded overhead?
 D. Model animals that change their behaviour over time
+Thanks to model using interfaces, we dont have overhead here
+
 1. Can you model a butterfly?
 a. A butterfly can fly
 b. A butterfly does not make a sound2. Can you optimize your model to account for the metamorphosis from caterpillar to
