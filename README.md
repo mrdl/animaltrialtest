@@ -81,6 +81,13 @@ a. how many of these animals can fly?
 b. how many of these animals can walk?
 c. how many of these animals can sing?
 d. how many of these animals can swim?
+
+Need to refactor a bit since we did not extend Fish from Animal.
+
+it's simple for counting flyable, walkable... we just need to use instanceOf.
+
+Let's have fun and build a Cache that contains the information and return instantly without the needs for looping.
+
 BONUS
 If you still have time left, please consider the following:
 1. Can you add a second language (if you know a language other than English) Use the
