@@ -1,3 +1,5 @@
+import global.Language;
+import global.Translator;
 import global.Zoo;
 import models.*;
 import org.junit.jupiter.api.BeforeEach;
@@ -31,7 +33,10 @@ public class SolutionTest {
         assertThat(standardOut.toString(), startsWith("ring ring"));
         standardOut.reset();
 
-
+        Translator.setLanguage(Language.URDU);
+        new Rooster().makeSound();
+        assertThat(standardOut.toString(), startsWith("kuklooku"));
+        standardOut.reset();
     }
 
     @Test
