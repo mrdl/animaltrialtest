@@ -1,12 +1,21 @@
 package models;
 
+import interfaces.Flyable;
 import interfaces.SoundMakable;
+import utility.Utility;
 
-public class Parrot extends Bird implements SoundMakable {
+public class Parrot extends Bird implements SoundMakable, Flyable {
     SoundMakable influencer;
+
+    public Parrot(){
+    }
 
     public Parrot(SoundMakable influencer) {
         this.influencer = influencer;
+    }
+
+    public void fly(){
+        Utility.doAction("flying");
     }
 
     public void makeSound(){

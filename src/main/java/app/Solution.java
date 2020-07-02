@@ -8,5 +8,7 @@ public class Solution {
         bird.walk();
         /**bird.fly(); not all birds can fly now **/
         bird.sing();
+
+
     }
 }
