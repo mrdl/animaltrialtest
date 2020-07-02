@@ -1,6 +1,5 @@
 package global;
 
-import com.google.inject.Singleton;
 import interfaces.Flyable;
 import interfaces.Singable;
 import interfaces.Swimmable;
