@@ -14,6 +14,8 @@ a. A duck says: “Quack, quack”
 b. A duck can swim
 c. A chicken says: “Cluck, cluck”
 d. A chicken cannot fly (assumption: its wings are clipped but ignore that)
+Since one of the birds cannot fly, there is no point to have flyable in bird, we can create FlyingBird and NonFlyingBird interfaces if we really need to.
+In this case, I will just move it outside.
 3. Now how would you model a rooster?
 a. A rooster says: “Cock-a-doodle-doo”
 b. How is the rooster related to the chicken?
