@@ -29,6 +29,8 @@ b. A parrot living with cats says: “Meow”
 c. A parrot living near the rooster says: “Cock-a-doodle-doo”
 d. How do you keep the parrot maintainable? What if we need another parrot
 lives near a Duck? Or near a phone that rings frequently?
+We will keep reference of an "influencer". Very maintainable.
+
 B. Model fish as well as other swimming animals
 1. In addition to the birds, can you model a fish?
 a. Fishes don’t sing
