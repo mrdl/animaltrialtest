@@ -1,9 +1,9 @@
 # Animal Trial Test
 1. Can you implement the sing() method for the bird?
 a. How did you unit test it?
-Junit simple test by logging the standard output
+**Junit simple test by logging the standard output**
 b. How did you optimize the code for maintainability?
-Interface for each of the action
+**Interface for each of the action**
 (Ask yourself the same question for all following exercises)
 You are expected to spend 1 to 1.5 hours on the assignment. If you run out of time,
 please submit the results as far as you got within this amount of time. We value
@@ -14,8 +14,10 @@ a. A duck says: “Quack, quack”
 b. A duck can swim
 c. A chicken says: “Cluck, cluck”
 d. A chicken cannot fly (assumption: its wings are clipped but ignore that)
-Since one of the birds cannot fly, there is no point to have flyable in bird, we can create FlyingBird and NonFlyingBird interfaces if we really need to.
-In this case, I will just move it outside.
+
+**Since one of the birds cannot fly, there is no point to have flyable in bird, we can create FlyingBird and NonFlyingBird interfaces if we really need to.
+In this case, I will just move it outside.**
+
 3. Now how would you model a rooster?
 a. A rooster says: “Cock-a-doodle-doo”
 b. How is the rooster related to the chicken?
@@ -29,7 +31,8 @@ b. A parrot living with cats says: “Meow”
 c. A parrot living near the rooster says: “Cock-a-doodle-doo”
 d. How do you keep the parrot maintainable? What if we need another parrot
 lives near a Duck? Or near a phone that rings frequently?
-We will keep reference of an "influencer". Very maintainable.
+
+**We will keep reference of an "influencer". Very maintainable.**
 
 B. Model fish as well as other swimming animals
 1. In addition to the birds, can you model a fish?
@@ -45,7 +48,8 @@ d. Sharks eat other fish
 a. Can you model a dolphin that swims without inheriting from a fish class?
 b. How do you avoid duplicating code or introducing unneeded overhead?
 D. Model animals that change their behaviour over time
-Thanks to model using interfaces, we dont have overhead here
+
+**Thanks to model using interfaces, we dont have overhead here**
 
 1. Can you model a butterfly?
 a. A butterfly can fly
@@ -55,7 +59,7 @@ butterfly?
 a. A caterpillar cannot fly
 b. A caterpillar can walk (crawl)
 
-This is standard State Design Pattern
+**This is standard State Design Pattern**
 
 E. Counting animals
 Suppose you have an array of animals, e.g.
@@ -82,11 +86,9 @@ b. how many of these animals can walk?
 c. how many of these animals can sing?
 d. how many of these animals can swim?
 
-Need to refactor a bit since we did not extend Fish from Animal.
-
+**Need to refactor a bit since we did not extend Fish from Animal.
 it's simple for counting flyable, walkable... we just need to use instanceOf.
-
-Let's have fun and build a Cache that contains the information and return instantly without the needs for looping.
+Let's have fun and build a Cache that contains the information and return instantly without the needs for looping.**
 
 BONUS
 If you still have time left, please consider the following:
@@ -94,22 +96,9 @@ If you still have time left, please consider the following:
 rooster as a PoC for demonstrating this. For example, this is how the Rooster sounds
 differently depending on language. Please add the rooster sound in your native
 tongue.
-• Danish: kykyliky
-• Dutch: kukeleku
-• Finnish: kukko kiekuu
-• French: cocorico
-• German: kikeriki
-• Greek: kikiriki• Hebrew: coo-koo-ri-koo
-• Hungarian: kukuriku
-• Italian: chicchirichi
-• Japanese: ko-ke-kok-ko-o
-• Portuguese: cucurucu
-• Russian: kukareku
-• Swedish: kuckeliku
-• Turkish: kuk-kurri-kuuu
-• Urdu: kuklooku
 
-Any standard i18n library should be able to do this easily. Let' replace a simple version of them.
+**Any standard i18n library should be able to do this easily. Let' replace a simple version of them.**
 
 2. Can you design a RESTful API for querying these animals
-Create some small apis using Spring Boot.
+
+**Create some small apis using Spring Boot.**
