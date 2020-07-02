@@ -5,7 +5,7 @@ import global.Size;
 import interfaces.Swimmable;
 import utility.Utility;
 
-public class Fish extends Animal implements Swimmable {
+public class Fish implements Swimmable {
     protected Color color;
     protected Size size;
 
