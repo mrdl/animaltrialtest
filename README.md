@@ -20,6 +20,7 @@ In this case, I will just move it outside.
 a. A rooster says: “Cock-a-doodle-doo”
 b. How is the rooster related to the chicken?
 c. Can you think of other ways to model a rooster without using inheritance?
+Rooster will extend chicken, if we dont want inheritance, we just create a normal class with all possible actions.
 4. Can you model a parrot? We are specifically interested in three parrots, one that
 lived in a house with dogs one in a house with cats, the other lived on a farm next to
 the rooster.

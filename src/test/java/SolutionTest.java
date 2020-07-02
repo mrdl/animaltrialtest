@@ -1,4 +1,5 @@
 import models.Bird;
+import models.Rooster;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -19,5 +20,9 @@ public class SolutionTest {
     void singTest(){
         new Bird().sing();
         assertThat(standardOut.toString(), startsWith("I am singing"));
+        standardOut.reset();
+
+        new Rooster().makeSound();
+        assertThat(standardOut.toString(), startsWith("Cock-a-doodle-doo"));
     }
 }
