@@ -1,4 +1,6 @@
 import models.Bird;
+import models.Parrot;
+import models.Phone;
 import models.Rooster;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -24,5 +26,10 @@ public class SolutionTest {
 
         new Rooster().makeSound();
         assertThat(standardOut.toString(), startsWith("Cock-a-doodle-doo"));
+        standardOut.reset();
+
+        new Parrot(new Phone()).makeSound();
+        assertThat(standardOut.toString(), startsWith("ring ring"));
+        standardOut.reset();
     }
 }
