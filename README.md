@@ -1,7 +1,9 @@
 # Animal Trial Test
 1. Can you implement the sing() method for the bird?
 a. How did you unit test it?
+Junit simple test by logging the standard output
 b. How did you optimize the code for maintainability?
+Interface for each of the action
 (Ask yourself the same question for all following exercises)
 You are expected to spend 1 to 1.5 hours on the assignment. If you run out of time,
 please submit the results as far as you got within this amount of time. We value
