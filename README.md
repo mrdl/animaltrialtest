@@ -112,3 +112,4 @@ tongue.
 Any standard i18n library should be able to do this easily. Let' replace a simple version of them.
 
 2. Can you design a RESTful API for querying these animals
+Create some small apis using Spring Boot.
